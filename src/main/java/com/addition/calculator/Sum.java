@@ -40,10 +40,10 @@ public class Sum {
 	}
 
 	
-<<<<<<< Updated upstream
+
 	// Important
 	
-=======
+
 	public int div1(int a, int b) {
 		int c= a-b;
 		System.out.println("Substraction Service: of a and b" + c);
@@ -69,13 +69,22 @@ public class Sum {
 		System.out.println("Substraction Service: of a and b" + c);
 		return c;
 	}
->>>>>>> Stashed changes
+
 	
 	
 	public int Division(int a , int b)
 	{
 		
 		int c= a+b;
+		System.out.println("Addtion Service: of a and b"+c);
+		
+		return c;
+	}
+	
+		public int stash(int a , int b)
+	{
+		
+		int c= a/b;
 		System.out.println("Addtion Service: of a and b"+c);
 		
 		return c;
